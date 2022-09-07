@@ -1,0 +1,58 @@
+.contents {
+    display: block;
+    width: 85%;
+    margin-left: 2%;
+    padding: 50px;
+}
+
+#bar {
+    background-color: #c1d045;
+    height: 10px;
+    border: none;
+    width: 105%;    
+}
+
+
+body {
+    overflow: visible;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    margin: 75px;
+    display: block;
+    border: #c0c0c0 3px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#card-desc {
+    background-color: #c1d045;
+    color:white;
+    border-radius: 4px;
+    padding: 15px;
+    width: 400px;    
+}
+#card-desc h2 {
+    text-align: center;
+    font-size: 32px;
+}
+#card-desc p {
+    font-size: 19px;
+}
+#photo {
+    height: 150px;
+    width: 350px;
+    padding: 29px;
+}
+
+#card-desc svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 6px;
+    background-color: #c0c0c0;
+    width:31%;
+    height: 32px;
+}

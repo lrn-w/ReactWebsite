@@ -1,0 +1,24 @@
+.contents {
+    display: block;
+    width: 85%;
+    margin-left: 2%;
+    padding: 50px;
+}
+
+#bar {
+    background-color: #c1d045;
+    height: 6px;
+    border: none;
+    width: 105%;
+    
+}
+
+p {
+    font-size: 25px;
+    color: #b3b3b3;
+    
+}
+
+body {
+    overflow: visible;
+}

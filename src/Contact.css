@@ -1,0 +1,66 @@
+.contents {
+    display: block;
+    width: 85%;
+    margin-left: 2%;
+    padding: 50px;
+}
+
+#bar {
+    background-color: #c1d045;
+    height: 6px;
+    border: none;
+    width: 105%;
+    
+}
+
+
+body {
+    overflow: visible;
+    margin: 0;
+}
+
+#footer {
+    background-color: #c1d045;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 16%;
+    padding-bottom: 1px;
+    color: white;
+}
+
+#footer svg {
+    padding: 0px 10px;
+    width: 33px;
+    height: 33px;
+}
+#emailcont {
+    display: inline-grid;
+    margin-left: 16%;
+}
+
+#submit {
+    background-color: #c1d045;
+    color: white;
+    border: none;
+    width: 25%;
+    padding-bottom: 0;
+    margin-left: 35%;
+    height: 25px;
+}
+
+#email {
+    width: fit-content;
+}
+
+label {
+    font-size: 24px;
+}
+#github {
+    color: white;
+    text-decoration: none;
+}
+#linkedin {
+    color: white;
+    text-decoration: none;
+}
