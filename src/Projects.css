@@ -1,22 +1,37 @@
-.contents {
+.projects {
+    overflow: hidden;
     display: block;
     width: 85%;
     margin-left: 2%;
     padding: 50px;
 }
 
-#bar {
+#projects-bar {
     background-color: #c1d045;
     height: 10px;
     border: none;
     width: 105%;    
 }
 
-
-body {
-    overflow: visible;
+.projects a {
+    color:white;
 }
 
+.projects h1 {
+    font-size: 48px;
+    font-weight: initial;
+}
+.wrapper{
+    /*
+    float: left;
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    width: 600px;
+    */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .card {
     width: fit-content;
     height: fit-content;
@@ -26,6 +41,10 @@ body {
     border-style: solid;
     border-radius: 8px;
 }
+#card-image {
+    width: 400px;
+    margin: auto;
+ }
 
 #card-desc {
     background-color: #c1d045;
@@ -41,12 +60,13 @@ body {
 #card-desc p {
     font-size: 19px;
 }
-#photo {
-    height: 150px;
-    width: 350px;
-    padding: 29px;
-}
+.projects img {
 
+    height: 190px;
+    width: 381px;
+    padding: 14px;
+    
+}
 #card-desc svg {
     margin-left: auto;
     margin-right: auto;

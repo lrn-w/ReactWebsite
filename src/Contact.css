@@ -1,4 +1,4 @@
-.contents {
+.contact {
     display: block;
     width: 85%;
     margin-left: 2%;
@@ -13,26 +13,30 @@
     
 }
 
+.contact h1 {
+    font-size: 48px;
+    font-weight: initial;
+}
 
 body {
     overflow: visible;
     margin: 0;
 }
 
-#footer {
+.contact-footer {
     background-color: #c1d045;
     padding: 20px;
     text-align: center;
-    font-size: 19px;
-    margin-top: 16%;
+    font-size: 22px;
+    margin-top: 19%;
     padding-bottom: 1px;
     color: white;
 }
 
-#footer svg {
+.contact-footer svg {
     padding: 0px 10px;
-    width: 33px;
-    height: 33px;
+    width: 48px;
+    height: 48px;
 }
 #emailcont {
     display: inline-grid;

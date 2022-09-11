@@ -1,11 +1,11 @@
-.contents {
+.about {
     display: block;
     width: 85%;
     margin-left: 2%;
-    padding: 50px;
+    padding: 42px;
 }
 
-#bar {
+.about #bar {
     background-color: #c1d045;
     height: 6px;
     border: none;
@@ -13,12 +13,50 @@
     
 }
 
-p {
-    font-size: 25px;
+#about-photo {
+    float:right;
+    padding: 35px;
+}
+
+.about h1 {
+    font-size: 48px;
+    font-weight: initial;
+}
+
+.about #but {
+    font-size: 40px;
+}
+
+.about-footer {
+    background-color: #c1d045;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5%;
+    padding-bottom: 1px;
+    color: white;
+}
+
+.about-footer svg {
+    padding: 0px 10px;
+    width: 48px;
+    height: 48px;
+}
+.about p {
+    font-size: 29px;
     color: #b3b3b3;
     
 }
 
 body {
     overflow: visible;
+}
+
+#github {
+    color: white;
+    text-decoration: none;
+}
+#linkedin {
+    color: white;
+    text-decoration: none;
 }

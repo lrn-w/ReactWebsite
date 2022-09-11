@@ -7,7 +7,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                        <div class="contents">
+                        <div class="contact">
             <h1>Contact Me</h1>
             <hr id="bar"/>
         </div>
@@ -23,7 +23,7 @@ class Contact extends Component {
             <input type="submit" value="Submit" id="submit"/>
         </div>
 
-        <div id="footer">
+        <div class="contact-footer">
             <a href="https://github.com/lrn-w/" id="github">
                 <i> <GitHub/></i>
             </a>
